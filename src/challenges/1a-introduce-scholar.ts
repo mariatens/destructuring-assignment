@@ -8,15 +8,19 @@ interface Scholar {
 //   return `${scholar.firstName} ${scholar.lastName} is an Academy Scholar, on Cohort ${scholar.cohortNumber}.`;
 // }
 
-// w object destructuring 
+// w object destructuring
 // function introduceScholar(scholar: Scholar): string {
 //     const {firstName, lastName, cohortNumber} = scholar
 //     return `${firstName} ${lastName} is an Academy Scholar, on Cohort ${cohortNumber}.`
 // }
 
 //w parameter destructuring
-function introduceScholar({ firstName, lastName, cohortNumber }: Scholar): string {
-  return `${firstName} ${lastName} is an Academy Scholar, on Cohort ${cohortNumber}.`
+function introduceScholar({
+  firstName,
+  lastName,
+  cohortNumber,
+}: Scholar): string {
+  return `${firstName} ${lastName} is an Academy Scholar, on Cohort ${cohortNumber}.`;
 }
 
 export default introduceScholar;

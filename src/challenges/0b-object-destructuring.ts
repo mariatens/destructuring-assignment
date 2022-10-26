@@ -9,7 +9,7 @@ const country = {
 // const abbreviation = country.abbreviation;
 // const capital = country.capital;
 // const population = country.population;
-const {abbreviation, capital, population } = country
+const { abbreviation, capital, population } = country;
 
 // export so the values can be tested - but you can ignore this
 export { abbreviation, capital, population };
